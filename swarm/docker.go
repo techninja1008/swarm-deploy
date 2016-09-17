@@ -7,5 +7,5 @@ import (
 
 func NewDockerCli() *command.DockerCli {
     stdin, stdout, stderr := term.StdStreams()
-    return &command.NewDockerCli(stdin, stdout, stderr)
+    return command.NewDockerCli(stdin, stdout, stderr)
 }
