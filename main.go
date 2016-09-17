@@ -1,8 +1,9 @@
 package main
 
 import (
-    "github.com/spf13/cobra"
     "github.com/techninja1008/swarm-deploy/cmd"
+    "os"
+    "fmt"
 )
 
 func main() {
