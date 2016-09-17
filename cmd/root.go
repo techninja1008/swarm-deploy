@@ -23,6 +23,6 @@ var (
 func init() {
     RootCmd.AddCommand(
         GoCmd,
-        stack.NewTopLevelDeployCommand(swarm.NewDockerCli())
+        stack.NewTopLevelDeployCommand(swarm.NewDockerCli()),
     )
 }
